@@ -22,10 +22,10 @@
                 <div class="line3"></div>
             </div>
                 <ul class="nav-list">
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">FAQ</a></li>
-                    <li><a href="">Contatos</a></li>
+                    <li><a href="inicio.php" class="button">início</a></li>
+                    <li><a href="" class="button">sobre</a></li>
+                    <li><a href="" class="button">faq</a></li>
+                    <li><a href="" class="button">contatos</a></li>
                 </ul>
         </nav>
     </header>
