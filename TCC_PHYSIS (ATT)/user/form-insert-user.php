@@ -60,24 +60,25 @@ require '../parts/header.php';
                 <div>
                     <label for="nome" class="block text-sm font-medium text-gray-700">Nome completo *</label>
                     <input id="nome" name="nome" type="text" required 
-                           minlength="3" maxlength="100"
+                           minlength="3" maxlength="50"
                            class="mt-1 appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-sm" 
                            placeholder="Seu nome completo"
                            value="<?= htmlspecialchars($_POST['nome'] ?? '', ENT_QUOTES) ?>">
-                    <p class="text-xs text-gray-500 mt-1">Mínimo 3, máximo 100 caracteres</p>
+                    <p class="text-xs text-gray-500 mt-1">Mínimo 3, máximo 50 caracteres</p>
                 </div>
                 
                 <div>
-                    <label for="email" class="block text-sm font-medium text-gray-700">Email *</label>
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email
+                    </label>
                     <input id="email" name="email" type="email" required 
-                           maxlength="255"
+                           maxlength="70"
                            class="mt-1 appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-sm" 
                            placeholder="seu@email.com"
                            value="<?= htmlspecialchars($_POST['email'] ?? '', ENT_QUOTES) ?>">
                 </div>
                 
                 <div>
-                    <label for="urlperfil" class="block text-sm font-medium text-gray-700">Foto de Perfil (URL) *</label>
+                    <label for="urlperfil" class="block text-sm font-medium text-gray-700">Foto de Perfil (URL)</label>
                     <input id="urlperfil" name="urlperfil" type="url" required 
                            maxlength="500"
                            class="mt-1 appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-sm" 
@@ -89,7 +90,7 @@ require '../parts/header.php';
                 <div>
                     <label for="senha" class="block text-sm font-medium text-gray-700">Senha *</label>
                     <input id="senha" name="senha" type="password" required 
-                           minlength="8" maxlength="72"
+                           minlength="8" maxlength="50"
                            class="mt-1 appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-sm"  
                            placeholder="Sua senha"
                            oninput="validar_forca_senha()">
@@ -99,7 +100,7 @@ require '../parts/header.php';
                 <div>
                     <label for="confsenha" class="block text-sm font-medium text-gray-700">Confirmar senha *</label>
                     <input id="confsenha" name="confsenha" type="password" required 
-                           minlength="8" maxlength="72"
+                           minlength="8" maxlength="50"
                            class="mt-1 appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-sm" 
                            placeholder="Confirme sua senha" 
                            onblur="verifica_senhas();">
