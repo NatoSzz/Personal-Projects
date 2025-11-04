@@ -135,4 +135,4 @@ try {
 }
 ?>
 
-PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'data_cadastro' in 'field list' in C:\xampp\htdocs\TCC_PHYSIS\user\insert-user.php:96 Stack trace: #0 C:\xampp\htdocs\TCC_PHYSIS\user\insert-user.php(96): PDOStatement->execute(Array) #1 {main}
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'data_cadastro' in 'field list' in C:\xampp\htdocs\TCC_PHYSIS\user\insert-user.php:96 Stack trace: #0 C:\xampp\htdocs\TCC_PHYSIS\user\insert-user.php(96): PDOStatement->execute(Array) #1 {main}n C:\xampp\htdocs\TCC_PHYSIS\user\insert-user.php:96 Stack trace: #0 C:\xampp\htdocs\TCC_PHYSIS\user\insert-user.php(96): PDOStatement->execute(Array) #1 {main}
